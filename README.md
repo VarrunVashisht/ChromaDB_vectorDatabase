@@ -41,34 +41,6 @@ Then the scripts query the database with phrases such as:
 - `chroma/` — additional local ChromaDB storage folder used during experimentation
 - `venv/` — project virtual environment
 
-## Setup
-
-This project already includes a local virtual environment in `venv/`, so you can run the scripts without installing anything extra if the environment is already working.
-
-If you want to create a fresh environment manually, run:
-
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-python -m pip install chromadb numpy
-```
-
-On Windows PowerShell, use:
-
-```powershell
-cd "C:\Users\61424\Desktop\ChromaDB"
-.\venv\Scripts\Activate.ps1
-```
-
-## Run the examples
-
-You can run any script directly with Python:
-
-```powershell
-cd "C:\Users\61424\Desktop\ChromaDB"
-.\venv\Scripts\python.exe .\semanticSearchSetup.py
-```
-
 Example output:
 
 ```text
